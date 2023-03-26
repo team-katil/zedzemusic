@@ -34,7 +34,7 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
-        "value": "Red Wine",
+        "value": "ZedzeX Music",
         "required": true
       },
       "OWNER_ID": {
