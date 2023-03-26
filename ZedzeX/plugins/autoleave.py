@@ -2,9 +2,9 @@ import asyncio
 from datetime import datetime
 
 import config
-from AnonX import app
-from AnonX.core.call import Anon, autoend
-from AnonX.utils.database import (get_client, is_active_chat,
+from ZedzeX import app
+from ZedzeX.core.call import Anon, autoend
+from ZedzeX.utils.database import (get_client, is_active_chat,
                                        is_autoend)
 
 
@@ -13,7 +13,7 @@ async def auto_leave():
         while not await asyncio.sleep(
             config.AUTO_LEAVE_ASSISTANT_TIME
         ):
-            from AnonX.core.userbot import assistants
+            from ZedzeX.core.userbot import assistants
 
             for num in assistants:
                 client = await get_client(num)
@@ -29,9 +29,9 @@ async def auto_leave():
                             chat_id = i.chat.id
                             if (
                                 chat_id != config.LOG_GROUP_ID
-                                and chat_id != -1001686672798
-                                and chat_id != -1001840101403
-                                and chat_id != -1001549206010
+                                and chat_id != -1001838900954
+                                and chat_id != -1001639124254
+                                and chat_id != -1001855202181
                             ):
                                 if left == 20:
                                     continue
@@ -64,7 +64,7 @@ async def auto_end():
                     continue
                 autoend[chat_id] = {}
                 try:
-                    await Anon.stop_stream(chat_id)
+                    await Zedze.stop_stream(chat_id)
                 except:
                     continue
                 try:
