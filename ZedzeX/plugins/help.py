@@ -1,3 +1,13 @@
+#
+# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+#
+# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
+# and is released under the "GNU v3.0 License Agreement".
+# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
+#
+# All rights reserved.
+
+
 from typing import Union
 
 from pyrogram import filters, types
@@ -42,12 +52,13 @@ async def helper_private(
         _ = get_string(language)
         keyboard = help_pannel(_, True)
         if update.message.photo:
-            await update.edit_message_text(
-                _["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard
+            await update.message.delete()
+            await update.message.reply_text(
+                _["help_1"], reply_markup=keyboard
             )
         else:
             await update.edit_message_text(
-                _["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard
+                _["help_1"], reply_markup=keyboard
             )
     else:
         chat_id = update.chat.id
@@ -62,7 +73,7 @@ async def helper_private(
         await update.reply_sticker("CAACAgUAAxkBAAIjVmKPYTFByKZlCo9d8mUv8QVAJEw7AAL9BQACiy14VGoQxOCDfE1KJAQ")
         await update.reply_photo(
             photo=config.START_IMG_URL,
-            caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard)
+            caption=_["help_1"], reply_markup=keyboard)
 
 
 @app.on_message(
