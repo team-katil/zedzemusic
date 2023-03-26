@@ -1,11 +1,9 @@
-# zedzemusic
-Advance music bot for telegram video chat
 <h2 align="center">
-    ──「 ZEDZE MUSIC 」──
+    ──「 Zᴇᴅᴢᴇ ✘ 」──
 </h2>
 
 <p align="center">
-  <img src="LOGO">
+  <img src="https://telegra.ph/file/ff3d94744211c796cf5bb.jpg">
 </p>
 
 <p align="center">
@@ -17,7 +15,7 @@ Advance music bot for telegram video chat
 </p>
 
 <p align="center">
-  <img src="LOGO">
+  <img src="https://telegra.ph/file/ff3d94744211c796cf5bb.jpg">
 </p>
 
 <h3 align="center">
