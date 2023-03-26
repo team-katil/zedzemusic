@@ -3,7 +3,7 @@ from datetime import datetime
 
 import config
 from ZedzeX import app
-from ZedzeX.core.call import Anon, autoend
+from ZedzeX.core.call import Zedze, autoend
 from ZedzeX.utils.database import (get_client, is_active_chat,
                                        is_autoend)
 
