@@ -96,7 +96,7 @@ def help_back_markup(_):
                     callback_data=f"settings_back_helper",
                 ),
                 InlineKeyboardButton(
-                    text=_["CLOSE_BUTTON"], callback_data=f"🔐 𝗖𝗹𝗼𝘀𝗲"
+                    text=_["CLOSE_BUTTON"], callback_data=f"🔐 𝐂𝐥𝐨𝐬𝐞"
                 )
             ]
         ]
