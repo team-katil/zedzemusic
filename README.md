@@ -1,3 +1,18 @@
+━━━━━━━━━━━━━━━━━━━━
+### 🌷𝐕𝐈𝐒𝐈𝐓𝐎𝐑𝐒🌷
+
+<!--
+**team-katil/team-katil** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+
+<p align="center">
+    <b>ᴠɪsɪᴛᴏʀs</b><br>
+ -->    <img align="middle" src="https://profile-counter.glitch.me/team-katil/count.svg" />
+</p>
+
+
+
+
 <h2 align="center">
     ──「 Zᴇᴅᴢᴇ ✘ 」──
 </h2>
