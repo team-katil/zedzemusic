@@ -36,6 +36,9 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
+                text="✯ 𝗢𝘄𝗻𝗲𝗿 ✯", url=f"https://t.me/tera_baap_katil"
+            ),
+            InlineKeyboardButton(
                 text="✯ 𝗛𝗲𝗹𝗽 ✯", callback_data="settings_back_helper"
             )
         ],
@@ -49,7 +52,8 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="👑 𝗢𝘄𝗻𝗲𝗿 👑", url=f"https://t.me/tera_baap_katil",
+                text="🌱ƨσʋяcɛ🌱",
+                url=f"https://github.com/team-katil/zedzemusic",
             )
         ],
      ]
