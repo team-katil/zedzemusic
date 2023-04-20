@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/team-katil/zedzemusi
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL","https://t.me/katilsupport")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/katil_bots")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL","https://t.me/katil_bots")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/katilsupport")
 
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "1000"))
