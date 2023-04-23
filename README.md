@@ -50,7 +50,7 @@
 
 🔴「 𝗜𝗙 𝗔𝗡𝗬 𝗘𝗥𝗥𝗢𝗥 𝗧𝗛𝗘𝗡 𝗦𝗘𝗡𝗗 𝗦𝗦 𝗧𝗢 𝗗𝗠 」🔴
 <p align="center">
-<a href="https://telegram.me/tera_baap_katil"><img src="https://img.shields.io/badge/-☆𝐃𝐌 𝐓𝐎 亗『𝐊𝐀𝐓𝐈𝐋』亗%20☆-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/katil_your_dad"><img src="https://img.shields.io/badge/-☆𝐃𝐌 𝐓𝐎 亗『𝐊𝐀𝐓𝐈𝐋』亗%20☆-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
