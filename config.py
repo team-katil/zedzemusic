@@ -7,62 +7,99 @@ from pyrogram import filters
 
 load_dotenv()
 
+# Get it from my.telegram.org
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 
+## Get it from @Botfather in Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 
+# Database to save your chats and stats... Get MongoDB:- 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+
+# You'll need a Private Group ID for this.
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
+
+# A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Zᴇᴅᴢᴇ ✘")
 
+# Your User ID.
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5301800943").split()))
 
+# Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
+
+# You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
+# For customized or modified Repository
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/team-katil/zedzemusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
+
+# GIT TOKEN ( if your edited repo is private)
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
+# Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL","https://t.me/katil_bots")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/katilsupport")
 
+# Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "5000"))
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "1000"))
-SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
+# Duration Limit for downloading Songs in MP3 or MP4 format from bot
+SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "1000"))
 
+# Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
+
+# Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
     getenv("ASSISTANT_LEAVE_TIME", "5400")
 )
 
+# Set it True if you want to delete downloads after the music playout ends from your downloads folder
 AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", "True")
 
+# Set it true if you want your bot to be private only [You'll need to allow CHAT_ID via /authorise command then only your bot will play music in that chat.]
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
+# Time sleep duration For Youtube Downloader
 YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
+
+# Time sleep duration For Telegram Downloader
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "3"))
 
+# Spotify Client.. Get it from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 
-VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "5"))
-SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "50"))
+# Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on telegram
+VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "300"))
+
+# Maximum Limit Allowed for users to save playlists on bot's server
+SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "500"))
+
+# MaximuM limit for fetching playlist's track from youtube, spotify, apple links.
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "50"))
 
-CLEANMODE_DELETE_MINS = int(getenv("CLEANMODE_MINS", "5"))
+# Cleanmode time after which bot will delete its old messages from chats
+CLEANMODE_DELETE_MINS = int(getenv("CLEANMODE_MINS", "60"))
+
+# Telegram audio  and video file size limit
 
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
-# https://www.gbmb.org/mb-to-bytes
 
+# Chceckout https://www.gbmb.org/mb-to-bytes  for converting mb to bytes
+
+# You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot.
 STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
 
+### DONT TOUCH or EDIT codes after this line
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
 LOG = 2
@@ -75,6 +112,7 @@ clean = {}
 autoclean = []
 
 
+# Images
 START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/ff3d94744211c796cf5bb.jpg")
 
 PING_IMG_URL = getenv(
