@@ -13,12 +13,12 @@
     ],
     "env": {
       "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "Get api id from https://my.telegram.org",
         "value": "",
         "required": true
       },
       "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "Get api hash from https://my.telegram.org",
         "value": "",
         "required": true
       },
@@ -74,5 +74,11 @@
               "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
           }
       ],
+      "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "eco"
+          }
+      },
       "stack": "container"
   }
