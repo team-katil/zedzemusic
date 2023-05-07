@@ -17,13 +17,14 @@
     ──「 Zᴇᴅᴢᴇ ✘ 」──
     
 
-
 ★ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙷𝙴𝚁𝙾𝙺𝚄 + 𝚅𝙿𝚂 ★
 </h2>
-
+<img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=♦𝙳𝙴𝙿𝙻𝙾𝚈+𝙾𝙽+𝙷𝙴𝚁𝙾𝙺𝚄♦;♨️+𝙽𝙾+𝙷𝙴𝚁𝙾𝙺𝚄+𝙱𝙰𝙽+𝙸𝚂𝚂𝚄𝙴+𝙰𝙻𝚂𝙾+𝚅𝙿𝚂+𝙳𝙴𝙿𝙻𝙾𝚈+📍+𝙿𝚁𝙴𝚂𝙴𝙽𝚃;🎭+𝙿𝙾𝚆𝙴𝚁𝙳+𝙱𝚈+TEAM+KATIL+🎭">
 <p align="center">
   <img src="https://telegra.ph/file/ff3d94744211c796cf5bb.jpg">
 </p>
+
+**𝘽𝙊𝙏 ➣ [Zᴇᴅᴢᴇ ✘](https://t.me/zedzexrobot)**
 
 <p align="center">
 <a href="https://github.com/team-katil/zedzemusic/stargazers"><img src="https://img.shields.io/github/stars/team-katil/zedzemusic?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
@@ -36,7 +37,8 @@
 
 
 <h2 align="center">
-    ⚠️「 📍𝗙𝗢𝗥𝗞 𝗧𝗛𝗜𝗦 𝗥𝗘𝗣𝗢 𝗙𝗜𝗥𝗦𝗧𝗟𝗬📍 」⚠️
+    <img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=⚠️𝗙𝗢𝗥𝗞+𝗧𝗛𝗜𝗦+𝗥𝗘𝗣𝗢+𝗙𝗜𝗥𝗦𝗧𝗟𝗬⚠️">
+
     
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
