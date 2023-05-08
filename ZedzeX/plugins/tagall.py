@@ -178,13 +178,13 @@ async def mentionall(client, message):
         usrnum += 1
         usrtxt += f"[{usr.user.first_name}](tg://user?id={usr.user.id}) "
 
-        if usrnum == 1:
+        if usrnum == 5:
             if mode == "text_on_cmd":
                 txt = f"{usrtxt} {random.choice(TAGSRT)}"
                 await client.send_message(chat_id, txt)
             elif mode == "text_on_reply":
                 await msg.reply(f"[{random.choice(EMOJI)}](tg://user?id={usr.user.id})")
-            await asyncio.sleep(3)
+            await asyncio.sleep(5)
             usrnum = 0
             usrtxt = ""
     try:
