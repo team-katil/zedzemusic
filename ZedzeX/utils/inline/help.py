@@ -30,18 +30,17 @@ def help_pannel(_, START: Union[bool, int] = None):
                     text="✯ 𝐀𝐮𝐭𝐡 ✯",
                     callback_data="help_callback hb2",
                 ),
-            ],
-            [
+            
                 InlineKeyboardButton(
                     text="✯ 𝐁𝐥𝐚𝐜𝐤𝐥𝐢𝐬𝐭 ✯",
                     callback_data="help_callback hb3",
                 ),
+            ],
+            [
                 InlineKeyboardButton(
                     text="✯ 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭 ✯",
                     callback_data="help_callback hb4",
                 ),
-            ],
-            [
                 InlineKeyboardButton(
                     text="✯ 𝐆𝐛𝐚𝐧 ✯",
                     callback_data="help_callback hb12",
@@ -49,16 +48,6 @@ def help_pannel(_, START: Union[bool, int] = None):
                 InlineKeyboardButton(
                     text="✯ 𝐋𝐲𝐫𝐢𝐜𝐬 ✯",
                     callback_data="help_callback hb5",
-                ),
-            ],
-            [
-                InlineKeyboardButton(
-                    text="✯ 𝐏𝐢𝐧𝐠 ✯",
-                    callback_data="help_callback hb7",
-                ),
-                InlineKeyboardButton(
-                    text="✯ 𝐏𝐥𝐚𝐲 ✯",
-                    callback_data="help_callback hb8",
                 ),
             ],
             [
@@ -72,13 +61,22 @@ def help_pannel(_, START: Union[bool, int] = None):
                 ),
             ],
             [
+           
                 InlineKeyboardButton(
-                    text="✯ 𝐒𝐭𝐚𝐫𝐭 ✯",
-                    callback_data="help_callback hb11",
+                    text="✯ 𝐏𝐥𝐚𝐲 ✯",
+                    callback_data="help_callback hb8",
                 ),
+            
+            
                 InlineKeyboardButton(
                     text="✯ 𝐒𝐮𝐝𝐨 ✯",
                     callback_data="help_callback hb9",
+                ),
+            ],
+            [
+                InlineKeyboardButton(
+                    text="⚜️SƬΛᏒƬ⚜️",
+                    callback_data="help_callback hb11",
                 ),
             ],
             mark,
@@ -96,7 +94,7 @@ def help_back_markup(_):
                     callback_data=f"settings_back_helper",
                 ),
                 InlineKeyboardButton(
-                    text=_["CLOSE_BUTTON"], callback_data=f"🔐 𝐂𝐥𝐨𝐬𝐞"
+                    text=_["CLOSE_BUTTON"], callback_data=f"✯ 𝐂𝐥𝐨𝐬𝐞 ✯"
                 )
             ]
         ]
