@@ -662,7 +662,7 @@ def track_markup(_,chat_id, videoid, user_id, channel, fplay):
 ## Live Stream Markup
 
 
-def livestream_markup(_, chat_id, videoid, user_id, mode, channel, fplay):
+def livestream_markup(_, videoid, user_id, mode, channel, fplay):
     buttons = [
         [
             InlineKeyboardButton(
@@ -683,20 +683,14 @@ def livestream_markup(_, chat_id, videoid, user_id, mode, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="《 10",
-                callback_data=f"ADMIN 1|{chat_id}",
+                text=_["S_B_3"],
+                url=f"{config.SUPPORT_GROUP}",
             ),
-            
-
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close",
+                text=_["CLOSEMENU_BUTTON"],
+                callback_data=f"forceclose {videoid}|{user_id}",
             ),
-
-            InlineKeyboardButton(
-                text="10 》",
-                callback_data=f"ADMIN 2|{chat_id}",
-            ),
-        ],
+        ]
     ]
     return buttons
 
