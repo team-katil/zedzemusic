@@ -680,7 +680,7 @@ def livestream_markup(_,chat_id, videoid, user_id, mode, channel, fplay):
             InlineKeyboardButton(
                 text="★ ᴄʜᴀᴛ ɢʀᴏᴜᴘ ★", url="https://t.me/unique_chat_world"
             ),
-        ]
+        ],
         [
             InlineKeyboardButton(
                 text="《 10",
