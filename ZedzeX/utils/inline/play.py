@@ -1,7 +1,7 @@
 import math
 
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from config import GITHUB_REPO, SUPPORT_CHANNEL, SUPPORT_GROUP
+from config import SUPPORT_CHANNEL, SUPPORT_GROUP
 from ZedzeX import app
 
 import config
