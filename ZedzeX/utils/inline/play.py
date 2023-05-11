@@ -662,7 +662,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
 ## Live Stream Markup
 
 
-def livestream_markup(_, videoid, user_id, mode, channel, fplay):
+def livestream_markup(_,chat_id, videoid, user_id, mode, channel, fplay):
     buttons = [
         [
             InlineKeyboardButton(
