@@ -24,13 +24,15 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Alone")
 
 # Your User ID.
-OWNER_ID = list(map(int, getenv("OWNER_ID", "6079943111"
+OWNER_ID = list(
+    map(int, getenv("OWNER_ID", "").split())
+)  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
+HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 # For customized or modified Repository
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AloneXBot/zedzemusic")
