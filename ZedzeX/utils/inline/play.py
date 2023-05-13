@@ -617,7 +617,7 @@ def telegram_markup(_, chat_id):
 ## Search Query Inline
 
 
-def track_markup(_, videoid, user_id, channel, fplay):
+def track_markup(_,chat_id, videoid, user_id, channel, fplay):
     buttons = [
         [
             InlineKeyboardButton(
@@ -662,7 +662,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
 ## Live Stream Markup
 
 
-def livestream_markup(_,chat_id, videoid, user_id, mode, channel, fplay):
+def livestream_markup(_, videoid, user_id, mode, channel, fplay):
     buttons = [
         [
             InlineKeyboardButton(
@@ -680,29 +680,19 @@ def livestream_markup(_,chat_id, videoid, user_id, mode, channel, fplay):
             InlineKeyboardButton(
                 text="★ σωиєя ★", url="https://t.me/ALONE_WAS_BOT"
             ),
-        ]
+        ],
         [
             InlineKeyboardButton(
-                text="《 10",
-                callback_data=f"ADMIN 1|{chat_id}",
+                text=_["CLOSEMENU_BUTTON"],
+                callback_data=f"forceclose {videoid}|{user_id}",
             ),
-            
-
-            InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close",
-            ),
-
-            InlineKeyboardButton(
-                text="10 》",
-                callback_data=f"ADMIN 2|{chat_id}",
-            ),
-        ],
+        ]
     ]
     return buttons
 
 ## wtf
 
-def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
+def playlist_markup(_, chat_id, videoid, user_id, ptype, channel, fplay):
     buttons = [
         [
             InlineKeyboardButton(
@@ -713,11 +703,11 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         [
             InlineKeyboardButton(
                 text=_["P_B_1"],
-                callback_data=f"VipPlaylists {videoid}|{user_id}|{ptype}|a|{channel}|{fplay}",
+                callback_data=f"ZedzePlaylists {videoid}|{user_id}|{ptype}|a|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
                 text=_["P_B_2"],
-                callback_data=f"vipPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
+                callback_data=f"ZedzePlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
             ),
         ],
         [
