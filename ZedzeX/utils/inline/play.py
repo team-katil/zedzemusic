@@ -241,7 +241,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="★ σωиєя ★", url="https://t.me/ALONE_WAS_BOT"
+                text="🌿σωиєя🌿", url="https://t.me/ALONE_WAS_BOT"
             ),
         ],
          [
@@ -543,8 +543,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="★ σωиєя ★", url="https://t.me/ALONE_WAS_BOT"
-            ),
+                text="🌿σωиєя🌿"
         ],
          [
             InlineKeyboardButton(
@@ -591,7 +590,7 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="★ σωиєя ★", url="https://t.me/ALONE_WAS_BOT"
+                text="🌿σωиєя🌿", url="https://t.me/ALONE_WAS_BOT"
             ),
         ],
          [
