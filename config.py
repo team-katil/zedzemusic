@@ -27,7 +27,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Alone")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "6079943111"
 
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY", "72ca98b6-9de5-4c1f-bf9d-7e06e746ebd7")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
