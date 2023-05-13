@@ -545,7 +545,7 @@ def stream_markup(_, videoid, chat_id):
             InlineKeyboardButton(
                 text="🌿σωиєя🌿"
         ],
-         [
+        [
             InlineKeyboardButton(
                 text="《 10",
                 callback_data=f"ADMIN 1|{chat_id}",
