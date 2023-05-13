@@ -543,7 +543,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="🌿σωиєя🌿"
+                text="🌿σωиєя🌿", url="https://t.me/ALONE_WAS_BOT"
         ],
         [
             InlineKeyboardButton(
