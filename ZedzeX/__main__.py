@@ -1,6 +1,5 @@
 import asyncio
 import importlib
-import sys
 
 from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
@@ -51,21 +50,6 @@ async def init():
     )
     await userbot.start()
     await Zedze.start()
-    try:
-        await Zedze.stream_decall("https://telegra.ph/file/de3464aa7d6bfafdd2dc3.mp4")
-    except:
-        pass
-    try:
-        await Zedze.stream_call(
-            "https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4"
-        )
-    except NoActiveGroupCall:
-        LOGGER("ZedzeX").error(
-            "[ERROR] - \n\nHey Baby, firstly open telegram and turn on voice chat in Logger Group else fu*k off. If you ever ended voice chat in log group i will stop working and users will fu*k you up."
-        )
-        sys.exit()
-    except:
-        pass
     await Zedze.decorators()
     LOGGER("ZedzeX").info("Zedze Music Bot Started Successfully")
     await idle()
