@@ -1,5 +1,3 @@
-import sys
-
 from pyrogram import Client
 
 import config
@@ -75,7 +73,6 @@ class Userbot(Client):
                 LOGGER(__name__).error(
                     f"Assistant Account 1 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin ! "
                 )
-                sys.exit()
         if config.STRING2:
             await self.two.start()
             try:
@@ -103,7 +100,6 @@ class Userbot(Client):
                 LOGGER(__name__).error(
                     f"Assistant Account 2 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin ! "
                 )
-                sys.exit()
             LOGGER(__name__).info(
                 f"Assistant Two Started as {self.two.name}"
             )
@@ -134,7 +130,6 @@ class Userbot(Client):
                 LOGGER(__name__).error(
                     f"Assistant Account 3 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin ! "
                 )
-                sys.exit()
             LOGGER(__name__).info(
                 f"Assistant Three Started as {self.three.name}"
             )
@@ -165,7 +160,6 @@ class Userbot(Client):
                 LOGGER(__name__).error(
                     f"Assistant Account 4 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin ! "
                 )
-                sys.exit()
             LOGGER(__name__).info(
                 f"Assistant Four Started as {self.four.name}"
             )
@@ -196,7 +190,6 @@ class Userbot(Client):
                 LOGGER(__name__).error(
                     f"Assistant Account 5 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin ! "
                 )
-                sys.exit()
             LOGGER(__name__).info(
                 f"Assistant Five Started as {self.five.name}"
             )
