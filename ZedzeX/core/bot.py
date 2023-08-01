@@ -1,5 +1,3 @@
-import sys
-
 from pyrogram import Client
 
 import config
@@ -32,7 +30,6 @@ class ZedzeXBot(Client):
             LOGGER(__name__).error(
                 "Please promote Bot as Admin in Logger Group"
             )
-            sys.exit()
         LOGGER(__name__).info(f"MusicBot Started as {self.name}")
         try:
             await self.send_message(
@@ -42,4 +39,3 @@ class ZedzeXBot(Client):
             LOGGER(__name__).error(
                 "Bot has failed to access the log Group. Make sure that you have added your bot to your log channel and promoted as admin!"
             )
-            sys.exit()
