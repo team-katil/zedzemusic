@@ -137,8 +137,8 @@ async def gen_thumb(videoid, user_id):
                     ((1280 - text_w) / 2, 530),
                     f"{para[0]}",
                     fill="white",
-                    stroke_width=1,
-                    stroke_fill="red",
+                    stroke_width=4,
+                    stroke_fill="black",
                     font=font,
                 )
             if para[1]:
@@ -147,8 +147,8 @@ async def gen_thumb(videoid, user_id):
                     ((1280 - text_w) / 2, 580),
                     f"{para[1]}",
                     fill="red",
-                    stroke_width=1,
-                    stroke_fill="red",
+                    stroke_width=3,
+                    stroke_fill="black",
                     font=font,
                 )
         except:
@@ -157,7 +157,7 @@ async def gen_thumb(videoid, user_id):
         draw.text(
             ((1280 - text_w) / 2, 660),
             f"Duration: {duration} Mins",
-            fill="white",
+            fill="blue",
             font=arial,
         )
         try:
@@ -277,8 +277,8 @@ async def gen_qthumb(videoid, user_id):
                     ((1280 - text_w) / 2, 530),
                     f"{para[0]}",
                     fill="red",
-                    stroke_width=1,
-                    stroke_fill="red",
+                    stroke_width=3,
+                    stroke_fill="black",
                     font=font,
                 )
             if para[1]:
@@ -287,8 +287,8 @@ async def gen_qthumb(videoid, user_id):
                     ((1280 - text_w) / 2, 580),
                     f"{para[1]}",
                     fill="red",
-                    stroke_width=1,
-                    stroke_fill="red",
+                    stroke_width=4,
+                    stroke_fill="blue",
                     font=font,
                 )
         except:
@@ -297,7 +297,7 @@ async def gen_qthumb(videoid, user_id):
         draw.text(
             ((1280 - text_w) / 2, 660),
             f"Duration: {duration} Mins",
-            fill="white",
+            fill="blue",
             font=arial,
         )
 
