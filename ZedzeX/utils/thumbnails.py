@@ -157,7 +157,9 @@ async def gen_thumb(videoid, user_id):
         draw.text(
             ((1280 - text_w) / 2, 660),
             f"Duration: {duration} Mins",
-            fill="blue",
+            fill="white",
+            stroke_width=2,
+            stroke_fill="blue",
             font=arial,
         )
         try:
@@ -297,7 +299,9 @@ async def gen_qthumb(videoid, user_id):
         draw.text(
             ((1280 - text_w) / 2, 660),
             f"Duration: {duration} Mins",
-            fill="blue",
+            fill="white",
+            stroke_width=2,
+            stroke_fill="blue",
             font=arial,
         )
 
