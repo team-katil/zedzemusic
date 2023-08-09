@@ -12,7 +12,7 @@ from ZedzeX.utils import help_pannel
 from ZedzeX.utils.database import get_lang, is_commanddelete_on
 from ZedzeX.utils.decorators.language import (LanguageStart,
                                                   languageCB)
-from VipX.utils.inline.help import (help_back_markup,
+from ZedzeX.utils.inline.help import (help_back_markup,
                                           private_help_panel)
 
 ### Command
