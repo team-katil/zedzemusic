@@ -3,7 +3,7 @@ import time
 
 import heroku3
 from pyrogram import filters, Client
-
+from config import API_HASH, API_ID, BOT_TOKEN
 import config
 from ZedzeX.core.mongo import pymongodb
 
