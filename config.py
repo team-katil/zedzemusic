@@ -25,7 +25,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Zᴇᴅᴢᴇ ✘")
 
 # Your User ID.
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5301800943").split()))
-SUDO_USERS = OWNER_ID.split("me/")[1]
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5301800943").split()))
 
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
