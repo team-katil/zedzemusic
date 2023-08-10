@@ -2,12 +2,21 @@ import socket
 import time
 
 import heroku3
-from pyrogram import filters
+from pyrogram import filters, Client
 
 import config
 from ZedzeX.core.mongo import pymongodb
 
 from .logging import LOGGER
+
+bot = Client(
+    ":memory:",
+    API_ID,
+    API_HASH,
+    bot_token=BOT_TOKEN,
+    plugins={"root": "Zaid.Player"},
+)
+
 
 SUDOERS = filters.user()
 
