@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.types import Message
 from pyrogram.errors import FloodWait
 from pyrogram import filters
-from ZedzeX.misc import bot as Client
+from ZedzeX import app as Client
 from config import SUDO_USERS
 from ZedzeX.srt import RAID, GROUP, DEADLYSPAM
 from traceback import format_exc
