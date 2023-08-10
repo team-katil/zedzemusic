@@ -45,7 +45,7 @@ async def start_comm(client, message: Message, _):
             keyboard = help_pannel(_)
             return await message.reply_photo(
                        photo=config.START_IMG_URL,
-                       caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard
+                       caption=_["help_1"].format(config.SUPPORT_GROUP), reply_markup=keyboard
             )
         if name[0:4] == "song":
             return await message.reply_text(_["song_2"])
