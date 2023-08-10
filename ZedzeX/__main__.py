@@ -1,7 +1,7 @@
 import asyncio
 import importlib
 
-from pyrogram import idle, Client
+from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
@@ -12,15 +12,6 @@ from ZedzeX.plugins import ALL_MODULES
 from ZedzeX.utils.database import get_banned_users, get_gbanned
 
 loop = asyncio.get_event_loop()
-
-bot = Client(
-    ":memory:",
-    API_ID,
-    API_HASH,
-    bot_token=BOT_TOKEN,
-    plugins={"root": "ZedzeX.plugins"},
-)
-
 
 async def init():
     if (
