@@ -4,11 +4,11 @@ from telegraph import upload_file
 from pyrogram import *
 from pyrogram.types import *
 
-from ZedzeX import pbot
+from ZedzeX import app
 
 markup=InlineKeyboardMarkup ([[InlineKeyboardButton ("SUPPORT", url="https://t.me/katilsupport")]])
 
-@pbot.on_message(filters.new_chat_members & filters.group)
+@app.on_message(filters.new_chat_members & filters.group)
 async def welcomepic(_, message):
 
     for u in message.new_chat_members:
@@ -18,15 +18,15 @@ async def welcomepic(_, message):
 NAME: {u.mention}
 ID: {u.id}
 USERNAME: @{u.username}
-COUNT: {await pbot.get_chat_members_count(message.chat.id)}
+COUNT: {await app.get_chat_members_count(message.chat.id)}
 ➖➖➖➖➖➖➖➖➖➖➖➖**
 """
 
         uid = u.id
         try:
-            Up = (await pbot.get_chat(uid)).photo
+            Up = (await app.get_chat(uid)).photo
             
-            await pbot.download_media(Up.big_file_id, file_name=f"pfp_{uid}.png")
+            await app.download_media(Up.big_file_id, file_name=f"pfp_{uid}.png")
             
             a = upload_file(f"./downloads/pfp_{uid}.png")
 
