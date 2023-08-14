@@ -3,7 +3,6 @@ import requests as r
 from telegraph import upload_file
 from pyrogram import *
 from pyrogram.types import *
-from pyrogram.enums import *
 
 from ZedzeX import pbot
 
