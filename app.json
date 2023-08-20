@@ -57,6 +57,16 @@
         "value": "",
         "required": false
       },
+      "GROUP_USERNAME": {
+       "description": "Fill here your group username ( without @ ) , {If group is private then fill after (https://t.me/) Parts, Like:- (+95vqurE-w8VkYHAl)} ",   
+       "value": "katilsupport",
+       "required": false
+      },
+      "CHANNEL_USERNAME": {
+       "description": "Fill here your channel username ( without @ ), {If channel is private then fill after (https://t.me/) Parts, Like:- (+81vaoeE-w8VkYSTl)}. ",
+       "value": "katil_bots",
+       "required": false
+      },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
         "value": "",
