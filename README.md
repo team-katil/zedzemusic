@@ -51,7 +51,7 @@
 
 <h2 align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=🔴𝗜𝗙+𝗔𝗡𝗬+𝗘𝗥𝗥𝗢𝗥+𝗧𝗛𝗘𝗡+𝗦𝗘𝗡𝗗+𝗦𝗦+𝗧𝗢+𝗗𝗠+...🔴">
+<img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=🔴𝗜𝗙+𝗔𝗡𝗬+𝗘𝗥𝗥𝗢𝗥+𝗧𝗛𝗘𝗡+𝗦𝗘𝗡𝗗+𝗦𝗦+𝗧𝗢+𝗗𝗠+KATIL+...🔴">
 <p align="center">
 <a href="https://telegram.me/katil_your_dad"><img src="https://img.shields.io/badge/-☆𝐃𝐌 𝐓𝐎 亗『𝐊𝐀𝐓𝐈𝐋』亗%20☆-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
