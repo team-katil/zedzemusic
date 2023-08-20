@@ -49,7 +49,6 @@
 
 [![Deploy To Heroku](https://graph.org/file/826b0a2fc82db8328a113.png)](https://dashboard.heroku.com/new-app?template=https://github.com/team-katil/zedzemusic)
 
-<h2 align="center">
 
 <img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=🔴𝗜𝗙+𝗔𝗡𝗬+𝗘𝗥𝗥𝗢𝗥+𝗧𝗛𝗘𝗡+𝗦𝗘𝗡𝗗+𝗦𝗦+𝗧𝗢+𝗗𝗠+KATIL+...🔴">
 <p align="center">
