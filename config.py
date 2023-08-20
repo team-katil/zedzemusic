@@ -27,6 +27,11 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Zᴇᴅᴢᴇ ✘")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5301800943").split()))
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5301800943").split()))
 
+GROUP_USERNAME = getenv("GROUP_USERNAME")
+CHANNEL_USERNAME = getenv("CHANNEL_USERNAME")
+# Fill your group and channel username (without @)
+# If your group and channel is private then fill like this:-  +GepTJkDUaiA5NmRl  , except (https://t.me/)
+
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
