@@ -1,3 +1,24 @@
+##WORKING ON v2.0 DON'T DEPLOY IF YOU DEPLOY THEN CRASH YOUR BOT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ━━━━━━━━━━━━━━━━━━
 <p align="center">
 🇮🇳 𝐕𝐈𝐒𝐈𝐓𝐎𝐑𝐒 🇮🇳
