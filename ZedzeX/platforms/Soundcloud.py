@@ -1,4 +1,3 @@
-import re
 from os import path
 
 from yt_dlp import YoutubeDL
